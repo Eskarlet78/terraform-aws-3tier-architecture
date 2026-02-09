@@ -1,12 +1,12 @@
 # Terraform AWS 3-Tier Production Architecture
 
-This project provisions a **scalable, secure, production-style 3-tier infrastructure on AWS** using **Terraform**.
+This project provisions a scalable, secure, production-style 3-tier infrastructure on AWS using Terraform.
 
 It demonstrates real-world cloud architecture and Infrastructure as Code (IaC) practices used by DevOps and Cloud Engineers.
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ```
 Internet
@@ -20,34 +20,34 @@ RDS MySQL Database (Private DB Subnets)
 
 ---
 
-## 🚀 What This Project Builds
+## What This Project Builds
 
-### 🌐 Networking
+### Networking
 - Custom VPC
 - Public, Private App, and Private DB subnets
 - Internet Gateway (IGW)
 - NAT Gateway for private outbound access
 - Route tables and associations
 
-### 🔐 Security
+### Security
 - Tier-based Security Groups
 - Internet → ALB → App → DB traffic flow
 - Database not publicly accessible
 
-### ⚙ Compute Layer
+### Compute Layer
 - Launch Template
 - Auto Scaling Group (ASG)
 - EC2 instances in private subnets
 
-### ⚖ Load Balancing
+### Load Balancing
 - Application Load Balancer (ALB)
 - Target Groups and health checks
 
-### 🗄 Database Layer
+### Database Layer
 - RDS MySQL instance
 - DB Subnet Group (private subnets only)
 
-### 🧠 Terraform Best Practices
+### Terraform Best Practices
 - Modular structure
 - Environment separation (dev)
 - Remote state (S3)
@@ -55,7 +55,7 @@ RDS MySQL Database (Private DB Subnets)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 terraform-aws-3tier-architecture/
@@ -79,7 +79,7 @@ terraform-aws-3tier-architecture/
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
 Before using this project:
 
@@ -90,7 +90,7 @@ Before using this project:
 
 ---
 
-## 🔑 Configure AWS Credentials
+## Configure AWS Credentials
 
 ```bash
 aws configure
@@ -103,7 +103,7 @@ Enter:
 
 ---
 
-## 📦 Clone This Repository
+## Clone This Repository
 
 ```bash
 git clone https://github.com/anirudht2025/terraform-aws-3tier-architecture.git
@@ -112,7 +112,7 @@ cd terraform-aws-3tier-architecture/environments/dev
 
 ---
 
-## 🚀 Deploy Infrastructure
+## Deploy Infrastructure
 
 ```bash
 terraform init
@@ -122,8 +122,7 @@ terraform apply
 
 Type `yes` when prompted.
 
-After deployment, Terraform outputs the **ALB DNS name**.  
-Open it in your browser to see:
+After deployment, Terraform outputs the ALB DNS name. Open it in your browser to see:
 
 ```
 Hello from App Server
@@ -131,7 +130,7 @@ Hello from App Server
 
 ---
 
-## 🧨 Destroy Infrastructure
+## Destroy Infrastructure
 
 To avoid AWS charges:
 
@@ -141,7 +140,7 @@ terraform destroy
 
 ---
 
-## 🎯 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - Infrastructure as Code (Terraform)
 - AWS networking and security
@@ -153,7 +152,7 @@ terraform destroy
 
 ---
 
-## 👤 Author
+## Author
 
 Anirudh T  
 Aspiring DevOps / Cloud Engineer
